@@ -1,6 +1,6 @@
 # simple-server
 
-Runs a simple webserver on port 80.
+Runs a simple webserver on port 8080.
 
 I use this for demoing small docker setups where a webserver is needed.
 
@@ -14,7 +14,7 @@ To buld the Dockerfile run:
 
 To run the image built above use:
 
-    docker run --rm -it --name simple-server-instance -p 80:7000 simple-server
+    docker run --rm -it --name simple-server-instance -p 8080:7000 simple-server
 
 You can then connect to the server at:
 
